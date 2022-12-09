@@ -1,5 +1,13 @@
 <div>
-    <h2>
-        Home Page
-    </h2>
+   <h2>Home Page</h2>
+   <div>
+        <h3>Trabalhos</h3>
+        <tbody>
+            <tr *ngFor="let job of jobs">
+                <td>{{job.name}}</td>
+                <td>{{job.start}}</td>
+                <td>{{job.finish}}</td>
+            </tr>
+        </tbody>
+   </div>
 </div>
