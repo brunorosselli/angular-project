@@ -1,0 +1,26 @@
+.main-header{
+    background-color: darkgray;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    border-radius: 10px;
+
+    .header-rotes {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+
+    }
+}
+
